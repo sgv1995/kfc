@@ -1,6 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         Burger chefburger = new Burger();
+        chefburger.id = 1;
         chefburger.name = "Шефбургер";
         chefburger.weight = 213;
         chefburger.description = "Попробуйте новый уникальный бургер от шефа! Нежный сливочный соус, сочное филе в оригинальной панировке, салат айcберг и помидоры на пшеничной булочке с черно-белым кунжутом.";
@@ -16,6 +17,7 @@ public class Main {
 
 
         Burger darkBurger = new Burger();
+        darkBurger.id = 1;
         darkBurger.name = "Темный Бургер";
         darkBurger.weight = 255;
         darkBurger.description = "Бургер с нежнейшим мясом бедра цыпленка, с соусом барбекю, свежими овощами, сыром чеддер и эмменталер, луком, маринованными огурчиками и халапеньо на ароматной ржаной булочке.";

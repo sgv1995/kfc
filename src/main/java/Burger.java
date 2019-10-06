@@ -1,4 +1,5 @@
 public class Burger {
+    int id;
     String name;
     int weight;
     String description;
